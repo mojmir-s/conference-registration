@@ -1,0 +1,26 @@
+# Configuration files with credentials
+config/database.php
+config/config.php
+
+# Uploads directory (keep structure, ignore files)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Composer
+vendor/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+logs/
